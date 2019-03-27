@@ -12,7 +12,7 @@ public class CollageItemView: UIView {
 
     public private(set) var collageItem : CollageItem?
     
-    lazy var imageView : UIImageView = {
+    public lazy var imageView : UIImageView = {
         let imgView = UIImageView()
         imgView.contentMode         = self.contentMode
         imgView.layer.borderColor   = self.layer.borderColor
